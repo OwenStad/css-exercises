@@ -72,6 +72,10 @@ button.cancel {
   color: royalblue;
 }
 
+/* The second flex box unneccesary. As div, and button both
+go to new line by default. Could romove .container, .header-close and
+.cont-canc. Would only need to wrap header around the button element.
+*/
 .header {
   font-size: 20px;
   font-weight: bold;
